@@ -1,9 +1,9 @@
 SimuGames integration/staging tree
 ================================
 
-http://simugames.net
+http://simugames.org
 
-Copyright (c) 2009-2014 The developers
+Copyright (c) 2009-2018 The developers
 
 What is SimuGames?
 ----------------
@@ -12,9 +12,9 @@ SimuGames is a new cryptocurrency which is more decentralized than Bitcoin. It p
  - Algorithm: SpreadX11
  - Block generation: 1 minute
  - Difficulty retargets: every block based on last 360 blocks
- - Reward starts at approx. 6.66 coins per block
+ - Reward starts at 1000 coins per block
  - Block reward is smoothly halved every 4 years
- - Total supply: 20 mln coins
+ - Total supply: 3 Billion coins
  - No year 2106 problem
 
 License
