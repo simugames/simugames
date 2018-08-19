@@ -4902,7 +4902,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey* preservekey)
 void static SimuGamesMiner(CWallet *pwallet)
 {
     printf("SimuGamesMiner disabled\n");
-    /*SetThreadPriority(THREAD_PRIORITY_LOWEST);
+    SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("spreadcoin-miner");
 
     std::string PrivAddress = GetArg("-miningprivkey", "");
@@ -5046,7 +5046,7 @@ void static SimuGamesMiner(CWallet *pwallet)
     {
         printf("SimuGamesMiner terminated\n");
         throw;
-    }*/
+    }
 }
 
 void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
